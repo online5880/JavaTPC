@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="메서드는 변수다">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +163,7 @@
       <workItem from="1657893968287" duration="687000" />
       <workItem from="1657894668772" duration="1695000" />
       <workItem from="1657896508102" duration="684000" />
-      <workItem from="1657897204763" duration="6102000" />
+      <workItem from="1657897204763" duration="8259000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657983518708</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="메서드는 변수다">
+      <created>1657983770825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657983770825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
