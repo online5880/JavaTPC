@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="관계를 이해하라(V. D. A)&#10;Value, DataType, Assign">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="데이터를 이동하라(변수 vs 배열의 관계)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,10 +69,10 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TPC04">
+  <component name="RunManager" selected="Application.TPC05">
     <configuration name="TPC03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC03" />
       <module name="JavaTPC.main" />
@@ -101,8 +99,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TPC05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC05" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC05" />
         <item itemvalue="Application.TPC04" />
         <item itemvalue="Application.TPC03" />
       </list>
@@ -121,7 +133,7 @@
       <workItem from="1657893968287" duration="687000" />
       <workItem from="1657894668772" duration="1695000" />
       <workItem from="1657896508102" duration="684000" />
-      <workItem from="1657897204763" duration="3080000" />
+      <workItem from="1657897204763" duration="4872000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -137,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657897971442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="데이터를 이동하라(변수 vs 배열의 관계)">
+      <created>1657980681386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657980681386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="프로그래밍의 3대 요소(변수, 자료형, 할당)" />
     <MESSAGE value="관계를 이해하라(V. D. A)&#10;Value, DataType, Assign" />
-    <option name="LAST_COMMIT_MESSAGE" value="관계를 이해하라(V. D. A)&#10;Value, DataType, Assign" />
+    <MESSAGE value="데이터를 이동하라(변수 vs 배열의 관계)" />
+    <option name="LAST_COMMIT_MESSAGE" value="데이터를 이동하라(변수 vs 배열의 관계)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
