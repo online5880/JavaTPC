@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="class, object, instance 상호관계">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/MemberVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC16.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="잘 설계된 클래스(DTO, VO)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/OverLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <recent name="kr.tpc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC16">
+  <component name="RunManager" selected="Application.TPC17">
     <configuration name="TPC14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC14" />
       <module name="JavaTPC.main" />
@@ -120,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.TPC12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC12" />
+    <configuration name="TPC17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC17" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC17" />
         <item itemvalue="Application.TPC16" />
         <item itemvalue="Application.TPC15" />
         <item itemvalue="Application.TPC14" />
         <item itemvalue="Application.org.example.TPC13" />
-        <item itemvalue="Application.org.example.TPC12" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,7 @@
       <workItem from="1657897204763" duration="8302000" />
       <workItem from="1658062632257" duration="2789000" />
       <workItem from="1658148089112" duration="6199000" />
-      <workItem from="1658234085854" duration="1353000" />
+      <workItem from="1658234085854" duration="2628000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -251,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658155425598</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="잘 설계된 클래스(DTO, VO)">
+      <created>1658235531204</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658235531204</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +284,8 @@
     <MESSAGE value="객체 생성 과정(new, 생성자 메서드, this)" />
     <MESSAGE value="private 생성자 (static과 관계)" />
     <MESSAGE value="class, object, instance 상호관계" />
-    <option name="LAST_COMMIT_MESSAGE" value="class, object, instance 상호관계" />
+    <MESSAGE value="잘 설계된 클래스(DTO, VO)" />
+    <option name="LAST_COMMIT_MESSAGE" value="잘 설계된 클래스(DTO, VO)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
