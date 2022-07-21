@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="상속">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC21.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="재정의(override)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/TPC23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <recent name="kr.tpc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC21">
+  <component name="RunManager" selected="Application.TPC23">
     <configuration name="TPC21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC21" />
       <module name="JavaTPC.main" />
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.TPC17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC17" />
+    <configuration name="TPC22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC22" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.TPC18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC18" />
+    <configuration name="TPC23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.tpc.TPC23" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="kr.tpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC23" />
+        <item itemvalue="Application.TPC22" />
         <item itemvalue="Application.TPC21" />
         <item itemvalue="Application.org.example.TPC20" />
         <item itemvalue="Application.org.example.TPC19" />
-        <item itemvalue="Application.org.example.TPC18" />
-        <item itemvalue="Application.org.example.TPC17" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +175,8 @@
       <workItem from="1658148089112" duration="6199000" />
       <workItem from="1658234085854" duration="5744000" />
       <workItem from="1658246835929" duration="189000" />
-      <workItem from="1658320808406" duration="2337000" />
+      <workItem from="1658320808406" duration="3302000" />
+      <workItem from="1658410275280" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -288,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658322881921</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="재정의(override)">
+      <created>1658323343399</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658323343399</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +329,8 @@
     <MESSAGE value="배열 vs 클래스의 관계&#10;동일한구조, 이질적인 구조" />
     <MESSAGE value="Part 1. 정리" />
     <MESSAGE value="상속" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속" />
+    <MESSAGE value="재정의(override)" />
+    <option name="LAST_COMMIT_MESSAGE" value="재정의(override)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
