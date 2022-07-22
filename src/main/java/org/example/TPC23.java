@@ -1,4 +1,8 @@
-package kr.tpc;
+package org.example;
+
+import kr.tpc.Animal;
+import kr.tpc.Cat;
+import kr.tpc.Dog;
 
 public class TPC23 {
     public static void main(String[] args) {

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="재정의(override)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/TPC23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC22.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="부모 자식간 형변환이 된다.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/TPC23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC23.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <recent name="kr.tpc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC23">
+  <component name="RunManager" selected="Application.TPC25">
     <configuration name="TPC21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC21" />
       <module name="JavaTPC.main" />
@@ -108,21 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.tpc.TPC23" />
-      <module name="JavaTPC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.tpc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.TPC19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC19" />
+    <configuration name="TPC24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC24" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +120,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.TPC20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC20" />
+    <configuration name="TPC25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC25" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.TPC23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC23" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TPC23" />
+        <item itemvalue="Application.TPC25" />
+        <item itemvalue="Application.TPC24" />
+        <item itemvalue="Application.org.example.TPC23" />
         <item itemvalue="Application.TPC22" />
         <item itemvalue="Application.TPC21" />
-        <item itemvalue="Application.org.example.TPC20" />
-        <item itemvalue="Application.org.example.TPC19" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +175,8 @@
       <workItem from="1658234085854" duration="5744000" />
       <workItem from="1658246835929" duration="189000" />
       <workItem from="1658320808406" duration="3302000" />
-      <workItem from="1658410275280" duration="680000" />
+      <workItem from="1658410275280" duration="881000" />
+      <workItem from="1658493932823" duration="1255000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -297,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658323343399</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="부모 자식간 형변환이 된다.">
+      <created>1658411138883</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658411138883</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +337,8 @@
     <MESSAGE value="Part 1. 정리" />
     <MESSAGE value="상속" />
     <MESSAGE value="재정의(override)" />
-    <option name="LAST_COMMIT_MESSAGE" value="재정의(override)" />
+    <MESSAGE value="부모 자식간 형변환이 된다." />
+    <option name="LAST_COMMIT_MESSAGE" value="부모 자식간 형변환이 된다." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
