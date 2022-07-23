@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="다형성">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC26.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="추상클래스">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/RemoCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/poly/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC27.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,20 +85,7 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\kr\poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC26">
-    <configuration name="TPC22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC22" />
-      <module name="JavaTPC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TPC27">
     <configuration name="TPC24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC24" />
       <module name="JavaTPC.main" />
@@ -137,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TPC27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC27" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example.TPC23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC23" />
       <module name="JavaTPC.main" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC27" />
         <item itemvalue="Application.TPC26" />
         <item itemvalue="Application.TPC25" />
         <item itemvalue="Application.TPC24" />
         <item itemvalue="Application.org.example.TPC23" />
-        <item itemvalue="Application.TPC22" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,7 @@
       <workItem from="1658320808406" duration="3302000" />
       <workItem from="1658410275280" duration="881000" />
       <workItem from="1658493932823" duration="1542000" />
-      <workItem from="1658577433240" duration="1297000" />
+      <workItem from="1658577433240" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658500348609</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="추상클래스">
+      <created>1658579522006</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658579522006</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +359,8 @@
     <MESSAGE value="재정의(override)" />
     <MESSAGE value="부모 자식간 형변환이 된다." />
     <MESSAGE value="다형성" />
-    <option name="LAST_COMMIT_MESSAGE" value="다형성" />
+    <MESSAGE value="추상클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="추상클래스" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
