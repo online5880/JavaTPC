@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="인터페이스">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC28.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="인터페이스 추상클래스">
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/JavaMySQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/JavaOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/poly/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/poly/TV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,9 +85,9 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\kr\poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC28">
-    <configuration name="TPC24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC24" />
+  <component name="RunManager" selected="Application.TPC29">
+    <configuration name="TPC29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC29" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.TPC25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC25" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
@@ -110,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.TPC26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC26" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
@@ -123,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.TPC27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC27" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
@@ -136,7 +138,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.example.TPC28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC28" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TPC28" />
-        <item itemvalue="Application.TPC27" />
-        <item itemvalue="Application.TPC26" />
-        <item itemvalue="Application.TPC25" />
-        <item itemvalue="Application.TPC24" />
+        <item itemvalue="Application.TPC29" />
+        <item itemvalue="Application.org.example.TPC28" />
+        <item itemvalue="Application.org.example.TPC27" />
+        <item itemvalue="Application.org.example.TPC26" />
+        <item itemvalue="Application.org.example.TPC25" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +183,7 @@
       <workItem from="1658410275280" duration="881000" />
       <workItem from="1658493932823" duration="1542000" />
       <workItem from="1658577433240" duration="4381000" />
-      <workItem from="1658662634615" duration="659000" />
+      <workItem from="1658662634615" duration="2388000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -330,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658588134895</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="인터페이스 추상클래스">
+      <created>1658663563731</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1658663563731</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +376,8 @@
     <MESSAGE value="다형성" />
     <MESSAGE value="추상클래스" />
     <MESSAGE value="인터페이스" />
-    <option name="LAST_COMMIT_MESSAGE" value="인터페이스" />
+    <MESSAGE value="인터페이스 추상클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터페이스 추상클래스" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
