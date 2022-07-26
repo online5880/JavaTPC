@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="Object 클래스">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC32.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kr/tpc/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/tpc/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TPC30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC30.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +81,7 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\kr\poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC32">
+  <component name="RunManager" selected="Application.TPC33">
     <configuration name="TPC29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC29" />
       <module name="JavaTPC.main" />
@@ -139,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.TPC28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC28" />
+    <configuration name="TPC33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC33" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC33" />
         <item itemvalue="Application.TPC32" />
         <item itemvalue="Application.TPC31" />
         <item itemvalue="Application.TPC30" />
         <item itemvalue="Application.TPC29" />
-        <item itemvalue="Application.org.example.TPC28" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +180,8 @@
       <workItem from="1658493932823" duration="1542000" />
       <workItem from="1658577433240" duration="4381000" />
       <workItem from="1658662634615" duration="2599000" />
-      <workItem from="1658755187795" duration="2043000" />
+      <workItem from="1658755187795" duration="2654000" />
+      <workItem from="1658837994238" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -355,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658756852324</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Object 클래스">
+      <created>1658757517359</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1658757517359</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
