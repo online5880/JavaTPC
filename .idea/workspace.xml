@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="package(패키지)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC34.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="String API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TPC35.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,20 +82,7 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\kr\poly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TPC34">
-    <configuration name="TPC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC30" />
-      <module name="JavaTPC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TPC35">
     <configuration name="TPC31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TPC31" />
       <module name="JavaTPC.main" />
@@ -148,13 +135,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TPC35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TPC35" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TPC35" />
         <item itemvalue="Application.TPC34" />
         <item itemvalue="Application.TPC33" />
         <item itemvalue="Application.TPC32" />
         <item itemvalue="Application.TPC31" />
-        <item itemvalue="Application.TPC30" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +183,9 @@
       <workItem from="1658662634615" duration="2599000" />
       <workItem from="1658755187795" duration="2654000" />
       <workItem from="1658837994238" duration="1587000" />
-      <workItem from="1658937211429" duration="959000" />
+      <workItem from="1658937211429" duration="1189000" />
+      <workItem from="1658939321575" duration="26000" />
+      <workItem from="1659016729768" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -367,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658844124733</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="String API">
+      <created>1658939044683</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1658939044683</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +417,8 @@
     <MESSAGE value="인터페이스와 JDBC의 관계" />
     <MESSAGE value="Object 클래스" />
     <MESSAGE value="package(패키지)" />
-    <option name="LAST_COMMIT_MESSAGE" value="package(패키지)" />
+    <MESSAGE value="String API" />
+    <option name="LAST_COMMIT_MESSAGE" value="String API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
