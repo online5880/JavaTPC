@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="JSON">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/Project01_4.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/Project01_5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Project01_4">
+  <component name="RunManager" selected="Application.Project01_5">
     <configuration name="Project01_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part3.Project01_1" />
       <module name="JavaTPC.main" />
@@ -140,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TPC39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TPC39" />
+    <configuration name="Project01_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3.Project01_5" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="Part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project01_5" />
         <item itemvalue="Application.Project01_4" />
         <item itemvalue="Application.Project01_3" />
         <item itemvalue="Application.Project01_2" />
         <item itemvalue="Application.Project01_1" />
-        <item itemvalue="Application.TPC39" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,7 @@
       <workItem from="1659016729768" duration="1342000" />
       <workItem from="1659106241357" duration="1099000" />
       <workItem from="1659247187157" duration="8189000" />
-      <workItem from="1659352734933" duration="2614000" />
+      <workItem from="1659352734933" duration="4956000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -433,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659279953659</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도">
+      <created>1659358665977</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659358665977</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="기본 자료형 vs 사용자 정의 자료형" />
     <MESSAGE value="객체 생성 과정(new, 생성자 메서드, this)" />
     <MESSAGE value="private 생성자 (static과 관계)" />
     <MESSAGE value="class, object, instance 상호관계" />
@@ -476,7 +482,8 @@
     <MESSAGE value="ArrayList" />
     <MESSAGE value="Wrapper 클래스" />
     <MESSAGE value="JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSON" />
+    <MESSAGE value="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도" />
+    <option name="LAST_COMMIT_MESSAGE" value="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
