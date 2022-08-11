@@ -1,4 +1,4 @@
-package Part3;
+package Part3.Project_01;
 
 import javax.swing.*;
 import java.awt.*;

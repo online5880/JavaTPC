@@ -1,4 +1,4 @@
-package Part3;
+package Part3.Project_01;
 
 import java.awt.event.*;
 import java.io.*;
@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import javax.swing.ImageIcon;
 
-import Part3.Project01_6;
+import Part3.Project_01.Project01_6;
 import org.json.*;
 import kr.inflearn.AddressVO;
 public class NaverMap implements ActionListener{

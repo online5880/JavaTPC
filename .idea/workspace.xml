@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/NaverMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/Project01_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/inflearn/AddressVO.java" afterDir="false" />
+    <list default="true" id="7d78c212-f80d-493d-8401-cbf73f91947d" name="Changes" comment="네이버 지도 API 사용하기&#10;- GUI 버전">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_06/Project06A_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_06/Project06A_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/NaverMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/NaverMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/Project01_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/Project01_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Part3/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Part3/Project_01/info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,44 +92,19 @@
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\kr\poly" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\Part3\Project_01" />
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java\Part3" />
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\resources" />
       <recent name="C:\Users\MANE\Desktop\Java\JavaTPC\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Project01_6">
-    <configuration name="Project01_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3.Project01_2" />
-      <module name="JavaTPC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Project01_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3.Project01_3" />
-      <module name="JavaTPC.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Project06A_Client">
     <configuration name="Project01_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3.Project01_4" />
+      <option name="MAIN_CLASS_NAME" value="Part3.Project_01.Project01_4" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part3.*" />
+          <option name="PATTERN" value="Part3.Project_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="Project01_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3.Project01_5" />
+      <option name="MAIN_CLASS_NAME" value="Part3.Project_01.Project01_5" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part3.*" />
+          <option name="PATTERN" value="Part3.Project_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +126,37 @@
       </method>
     </configuration>
     <configuration name="Project01_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3.Project01_6" />
+      <option name="MAIN_CLASS_NAME" value="Part3.Project_01.Project01_6" />
       <module name="JavaTPC.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part3.*" />
+          <option name="PATTERN" value="Part3.Project_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project06A_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3.Project_06.Project06A_Client" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3.Project_06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Project06A_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3.Project_06.Project06A_Server" />
+      <module name="JavaTPC.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3.Project_06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Project06A_Client" />
+        <item itemvalue="Application.Project06A_Server" />
         <item itemvalue="Application.Project01_6" />
         <item itemvalue="Application.Project01_5" />
         <item itemvalue="Application.Project01_4" />
-        <item itemvalue="Application.Project01_3" />
-        <item itemvalue="Application.Project01_2" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +205,9 @@
       <workItem from="1659106241357" duration="1099000" />
       <workItem from="1659247187157" duration="8189000" />
       <workItem from="1659352734933" duration="4956000" />
-      <workItem from="1659443043043" duration="1802000" />
+      <workItem from="1659443043043" duration="2595000" />
+      <workItem from="1659623118614" duration="605000" />
+      <workItem from="1660226629488" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="프로그래밍의 3대 요소(변수, 자료형, 할당)">
       <created>1657807254055</created>
@@ -443,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659358665977</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="네이버 지도 API 사용하기&#10;- GUI 버전">
+      <created>1659450333629</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1659450333629</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="객체 생성 과정(new, 생성자 메서드, this)" />
     <MESSAGE value="private 생성자 (static과 관계)" />
     <MESSAGE value="class, object, instance 상호관계" />
     <MESSAGE value="잘 설계된 클래스(DTO, VO)" />
@@ -486,7 +503,8 @@
     <MESSAGE value="Wrapper 클래스" />
     <MESSAGE value="JSON" />
     <MESSAGE value="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도" />
-    <option name="LAST_COMMIT_MESSAGE" value="네이버 지도 API 사용하기&#10;- 주소&#10;- 번지주소&#10;- 위도&#10;- 경도" />
+    <MESSAGE value="네이버 지도 API 사용하기&#10;- GUI 버전" />
+    <option name="LAST_COMMIT_MESSAGE" value="네이버 지도 API 사용하기&#10;- GUI 버전" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
